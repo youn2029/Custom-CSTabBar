@@ -12,6 +12,7 @@
 		4E04099722607D020029CECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E04099522607D020029CECB /* Main.storyboard */; };
 		4E04099922607D030029CECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E04099822607D030029CECB /* Assets.xcassets */; };
 		4E04099C22607D030029CECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E04099A22607D030029CECB /* LaunchScreen.storyboard */; };
+		4E0409A42260818F0029CECB /* CSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0409A32260818F0029CECB /* CSTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4E04099822607D030029CECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E04099B22607D030029CECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E04099D22607D030029CECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E0409A32260818F0029CECB /* CSTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4E04099122607D020029CECB /* AppDelegate.swift */,
 				4E04099322607D020029CECB /* ViewController.swift */,
+				4E0409A32260818F0029CECB /* CSTabBarController.swift */,
 				4E04099522607D020029CECB /* Main.storyboard */,
 				4E04099822607D030029CECB /* Assets.xcassets */,
 				4E04099A22607D030029CECB /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E04099422607D020029CECB /* ViewController.swift in Sources */,
+				4E0409A42260818F0029CECB /* CSTabBarController.swift in Sources */,
 				4E04099222607D020029CECB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.seongho.Custom-CSTabBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.seongho.Custom-CSTabBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
